@@ -53,7 +53,7 @@ binary_sensor:
       number: GPIO4
       inverted: true
     filters:
-      - delayed_on: 20ms
+      - delayed_on: 250ms
 
   - platform: gpio
     pin:
