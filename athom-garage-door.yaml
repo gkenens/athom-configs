@@ -29,7 +29,7 @@ wifi:
 captive_portal:
 
 dashboard_import:
-  package_import_url: github://athom-tech/athom-configs/athom-garage-door.yaml
+  package_import_url: github://gkenens/athom-configs/athom-garage-door.yaml
 
 sensor:
   - platform: uptime
@@ -80,7 +80,7 @@ button:
 
 button:
   - platform: restart
-    name: "Garage Door 1 Reboot"
+    name: "Reboot Garage Door 1 Opener"
     id: Reboot
 
 
