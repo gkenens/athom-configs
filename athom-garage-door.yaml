@@ -72,8 +72,7 @@ binary_sensor:
           - ON for at least 4s
         then:
           - button.press: Reset
-
-button:
+          
   - platform: factory_reset
     name: Restart with Factory Default Settings
     id: Reset
