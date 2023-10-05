@@ -72,16 +72,15 @@ binary_sensor:
           - ON for at least 4s
         then:
           - button.press: Reset
-          
-  - platform: factory_reset
-    name: Restart with Factory Default Settings
-    id: Reset
 
 button:
   - platform: restart
     name: "Reboot Garage Door 1 Opener"
     id: Reboot
 
+  - platform: factory_reset
+    name: Restart with Factory Default Settings
+    id: Reset
 
 switch:
   - platform: gpio
