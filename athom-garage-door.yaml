@@ -78,6 +78,12 @@ button:
     name: Restart with Factory Default Settings
     id: Reset
 
+button:
+  - platform: restart
+    name: "Garage Door 1 Reboot"
+    id: Reboot
+
+
 switch:
   - platform: gpio
     pin: GPIO5
